@@ -1,0 +1,28 @@
+<h2>Why is this an issue?</h2>
+<p>Git supports six different protocols: </p>
+<ol>
+    <li>Local protocol for removes starting by <code>/</code> or <code>file://</code></li>
+    <li><code>git://</code></li>
+    <li>Plain <code>http://</code></li>
+    <li>Git over SSH <code>ssh://</code></li>
+    <li>Secure <code>https://</code></li>
+</ol>
+
+<p>The first protocol to a local mirror, which can be unavailable to third parties cloning the repository.</p>
+<p>The second and the third protocols are insecure -- not encrypted -- and can be hijacked by an attacker.</p>
+<p>
+    Only the third and the fourth allow third parties to securely clone the submodule.
+    However, the <code>ssh</code> protocol requires either a password or a private key
+    known by anyone wanting to clone the submodule. If the project is public, this can
+    be inconvenient for users.
+</p>
+<p>
+    Hence, <code>https://</code> is to be preferred.
+</p>
+
+<h2>See also</h2>
+<ul>
+    <li>
+        <a href="https://git-scm.com/book/en/v2/Git-on-the-Server-The-Protocols">Git on the Server - The Protocols</a>
+    </li>
+</ul>

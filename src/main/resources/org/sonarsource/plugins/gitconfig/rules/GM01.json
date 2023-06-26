@@ -1,0 +1,13 @@
+{
+  "title": "Prefer the use of https for git submodules",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "0min"
+  },
+  "defaultSeverity": "Blocker",
+  "sqKey": "GM01",
+  "scope": "All",
+  "quickfix": "unknown"
+}

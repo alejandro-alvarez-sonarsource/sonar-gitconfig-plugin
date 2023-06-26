@@ -1,0 +1,13 @@
+{
+  "title": "Do not ignore git configuration files",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "0min"
+  },
+  "defaultSeverity": "Blocker",
+  "sqKey": "GI01",
+  "scope": "All",
+  "quickfix": "unknown"
+}

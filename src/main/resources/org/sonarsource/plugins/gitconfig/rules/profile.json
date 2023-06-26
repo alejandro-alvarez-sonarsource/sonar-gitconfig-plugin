@@ -1,0 +1,7 @@
+{
+  "name": "GitConfig",
+  "ruleKeys": [
+    "GI01",
+    "GM01"
+  ]
+}
