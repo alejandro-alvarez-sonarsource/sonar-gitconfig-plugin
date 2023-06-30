@@ -19,6 +19,8 @@
     <junit.version>4.13.2</junit.version>
     <jdk.min.version>17</jdk.min.version>
     <sonar.sources>src/main/java</sonar.sources>
+    <sonar.organization>alejandro-alvarez-sonarsource</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
 
   <!-- http://maven.apache.org/pom.html#Distribution_Management -->
