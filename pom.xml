@@ -21,6 +21,14 @@
     <sonar.sources>src/main/java</sonar.sources>
   </properties>
 
+  <!-- http://maven.apache.org/pom.html#Distribution_Management -->
+  <distributionManagement>
+    <snapshotRepository>
+        <id>github</id>
+        <name>Github Snapshots</name>
+    </snapshotRepository>
+  </distributionManagement>
+
   <dependencies>
     <dependency>
       <groupId>org.sonarsource.analyzer-commons</groupId>
