@@ -9,7 +9,7 @@
   <packaging>sonar-plugin</packaging>
   <version>0.0.1</version>
 
-  <name>SonarQube .config :: Plugin</name>
+  <name>SonarQube GitConfig :: Plugin</name>
   <description>Code Analyzer for .gitconfig</description>
 
   <properties>
